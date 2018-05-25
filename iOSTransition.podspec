@@ -2,7 +2,6 @@
 
 Pod::Spec.new do |s|
 
-
   s.name         = "iOSTransition"
   s.version      = "0.0.1"
   s.summary      = "A new way of presenting viewcontroller from all directions "
@@ -14,21 +13,13 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/shaktiprakash099/iOSTransition"
    s.screenshots  = "http://g.recordit.co/MRtDtMsJW4.gif"
 
-
-
-
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
-
 
   s.author             = "shaktiprakash"
 
 
   s.platform     = :ios, "10.0"
-
-
-
 
 
 
