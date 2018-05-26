@@ -4,23 +4,25 @@
 
 Normally while presenting a controller in ios there are two traditional ways from right and and from bottom but Now we can present controller from any directions  like top ,bottom ,left and right
 
-**INSTALLLATION GUIDE    Through Pod**
+**INSTALLLATION GUIDE**
 
 Add this to ur Podfile
 <br/>
-
-```pod 'iOSTransition',:git => 'https://github.com/shaktiprakash099/iOSTransition.git' ,:tag => '0.0.1'
+```
+pod 'iOSTransition',:git => 'https://github.com/shaktiprakash099/iOSTransition.git' ,:tag => '0.0.1'
 ```
 <br/>
+import the ioSTransition library in the controller in which you are presenting controller  
 
-
-```import iOSTransition
+```
+import iOSTransition
 ```
 <br/>
 Then Declare a slideTransioningManager varible as below
 <br/>
 
-```lazy var slideTransioningDelegate = SlideInPresentationManager()
+```
+lazy var slideTransioningDelegate = SlideInPresentationManager()
 ```
 <br/>
 
