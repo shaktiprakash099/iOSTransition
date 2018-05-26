@@ -5,6 +5,7 @@ Pod::Spec.new do |s|
   s.name         = "iOSTransition"
   s.version      = "0.0.1"
   s.summary      = "A new way of presenting viewcontroller from all directions "
+  s.swift_version = '>= 4.0'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
 
