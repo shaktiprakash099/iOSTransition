@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "A new way of presenting viewcontroller from all directions "
 # s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+s.swift_version = "4.0"
 
 
   s.description  = "Normally while presenting a controller in ios there are two traditional ways from right and and from bottom but Now we can present controller from any directions  like top ,bottom ,left and right"
@@ -13,8 +14,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/shaktiprakash099/iOSTransition"
    s.screenshots  = "http://g.recordit.co/MRtDtMsJW4.gif"
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
   s.author             = "shaktiprakash"
 
