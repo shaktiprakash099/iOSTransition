@@ -14,7 +14,7 @@ s.swift_version = "4.0"
   s.homepage     = "https://github.com/shaktiprakash099/iOSTransition"
    s.screenshots  = "http://g.recordit.co/MRtDtMsJW4.gif"
 
-   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+   s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = "shaktiprakash"
 
